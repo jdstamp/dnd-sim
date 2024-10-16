@@ -1,12 +1,5 @@
 library(dplyr)
 
-advantage = FALSE
-ac = 15
-attack_mod = 5
-dmg_mod = 3
-dmg_dice = 12
-n_trials = 1e4
-
 attack <- function(advantage,
                    ac,
                    attack_mod,
